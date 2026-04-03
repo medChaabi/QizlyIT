@@ -20,7 +20,7 @@ Vos fichiers doivent être organisés selon la structure suivante :
      ```markdown
      | Nom | Type | Date | Ressource (PDF) | Fichier JSON Qizly | Code Qizly | Par |
      | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-     | Mon Super Quiz | Biologie | 2024 | [📄 Voir PDF](./Resource/biologie-quiz.pdf) | [⬇️ Télécharger](./QizlyJSON/biologie-quiz.json) | `BIO-101` | [@votre_pseudo_github](https://github.com/votre_pseudo_github) |
+      | Mon Quiz | Genre | 2024 | [PDF 📄](./Resource/mon-quiz.pdf) | [JSON ⬇️](./QizlyJSON/mon-quiz.json) | `VOTRE-CODE` | [@votre_pseudo](https://github.com/votre_pseudo) |
      ```
 5. **Commettez et Poussez (Commit and Push)** : Envoyez vos modifications vers votre fork sur GitHub.
 6. **Ouvrez une Pull Request** : Soumettez vos changements pour examen dans le dépôt principal.

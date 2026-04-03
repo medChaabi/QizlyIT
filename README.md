@@ -8,8 +8,10 @@ Ce dépôt permet aux utilisateurs de la communauté de collaborer, de partager 
 
 | Nom | Type | Date | Ressource (PDF) | Fichier JSON Qizly | Code Qizly | Par |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Ministère de la Justice (Git Quiz)** | Concours | 2022 | [📄 Voir PDF](./Resource/Ministère%20de%20la%20justice%202022.pdf) | [⬇️ Télécharger](./QizlyJSON/Ministere_de_la_justice_2022_DEV.json) | `IQ4T4E` | [@medChaabi](https://github.com/medChaabi) |
-| | | | | | | |
+| **Ministère de la Justice** | Concours DEV | 2022 | [PDF 📄](./Resource/Ministere_de_la_justice_2022.pdf) | [JSON ⬇️](./QizlyJSON/Ministere_de_la_justice_2022_DEV.json) | `IQ4T4E` | [@medChaabi](https://github.com/medChaabi) |
+| **Ministère de la Justice** | Concours DEV | 2024 | [PDF 📄](./Resource/Ministere_de_la_justice_2024.pdf) | [JSON ⬇️](./QizlyJSON/Ministere_de_la_justice_2024_DEV.json) | `AM091Y` | [@medChaabi](https://github.com/medChaabi) |
+
+
 
 ---
 *Vous voulez contribuer ? Consultez le fichier [CONTRIBUTING.md](./CONTRIBUTING.md) pour savoir comment ajouter vos propres ressources.*
