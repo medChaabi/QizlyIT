@@ -1,0 +1,657 @@
+[
+  {
+    "question": "1) L'Architecture 3-tiers est composée des couches suivantes :",
+    "options": [
+      "1- Données, transport et présentation",
+      "2- Application, réseau et données",
+      "3- Données, application et présentation",
+      "4- Réseau, application et présentation"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "L'architecture 3-tiers classique se compose de la couche présentation (interface), la couche application (traitement métier) et la couche données (accès aux données)."
+  },
+  {
+    "question": "2) Avec la méthode GET,",
+    "options": [
+      "1- les données de formulaire sont écrites dans le corps du message de la requête",
+      "2- les données sont envoyées au serveur pour créer et mettre à jour une ressource",
+      "3- les données à envoyer au serveur sont écrites dans l'entête de la requête",
+      "4- les requêtes peuvent être mises en cache"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "Les requêtes GET peuvent être mises en cache par le navigateur ou les proxys. Les données sont passées dans l'URL (query string), pas dans le corps (Option 1). L'option 3 est imprécise (l'URL est dans la ligne de requête, pas les en-têtes HTTP stricto sensu)."
+  },
+  {
+    "question": "3) Identifier les méthodes du protocole http :",
+    "options": [
+      "1- SET",
+      "2- POST",
+      "3- PUT",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "1",
+      "2"
+    ],
+    "justification": "POST et PUT sont des méthodes standard du protocole HTTP. SET n'en est pas une."
+  },
+  {
+    "question": "4) Le langage HTML permet de :",
+    "options": [
+      "1- Définir la structure et la mise en page d'un site Web",
+      "2- Contrôler la façon dont la page est transférée du serveur au client",
+      "3- Définir comment une ressource doit être adressée sur le Web",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "HTML (HyperText Markup Language) est un langage de balisage utilisé pour structurer le contenu des pages web."
+  },
+  {
+    "question": "Lequel des éléments suivants n'est pas un système d'exploitation ?",
+    "options": [
+      "1- Windows NT",
+      "2- MAC OS",
+      "3- Opera OS",
+      "4- Unix"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Opera est un navigateur web. Bien qu'il existe des environnements limités, dans le contexte des systèmes d'exploitation majeurs (Windows, Mac, Unix), Opera n'en est pas un."
+  },
+  {
+    "question": "7) Quel est le terme qui correspond au modèle entité-association :",
+    "options": [
+      "1- MCD",
+      "2- LCD",
+      "3- MLT",
+      "4- MCT"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Le modèle entité-association correspond au Modèle Conceptuel de Données (MCD) dans la méthode Merise."
+  },
+  {
+    "question": "8) En UML quel est le diagramme qui sert à présenter les instances de classes le système ?",
+    "options": [
+      "1- Diagramme de séquences",
+      "2- Diagramme d'objet",
+      "3- Diagramme de classe",
+      "4- Diagramme de composants"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Le diagramme d'objets (Object Diagram) représente des instances de classes et leurs liens à un instant donné."
+  },
+  {
+    "question": "9) Qu'est-ce qu'un DNS ?",
+    "options": [
+      "1- Domain Name System",
+      "2- Domain Namespace",
+      "3- Digital name system",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "DNS signifie Domain Name System, le service qui traduit les noms de domaine en adresses IP."
+  },
+  {
+    "question": "10) Pour afficher que les villes de 10.000 habitants dans l'instruction SQL: \"Select ville, count(*) from table_ville group by ville\"",
+    "options": [
+      "1- Ajouter la clause having count(*)>10.000 après de group by",
+      "2- Ajouter la clause where count(*)>10.000 après de group by",
+      "3- Ajouter la clause count(*)>10.000 après le where",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Pour filtrer sur le résultat d'une fonction d'agrégation (comme count), on utilise la clause HAVING après le GROUP BY."
+  },
+  {
+    "question": "11) Quel mot clé intervient quand on souhaite récupérer des enregistrements en travaillant sur plusieurs tables ?",
+    "options": [
+      "1- Join",
+      "2- Multi",
+      "3- Union",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Le mot clé JOIN est utilisé pour combiner les colonnes de plusieurs tables via une condition de liaison."
+  },
+  {
+    "question": "12) Le clavier, scanner, microphone sont des :",
+    "options": [
+      "1- Périphériques d'entrée",
+      "2- Périphériques de sortie",
+      "3- Périphériques d'entrée/Sortie",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Ces périphériques permettent d'envoyer des informations vers l'ordinateur (Entrée)."
+  },
+  {
+    "question": "13) MySQL est un système de gestion de base de données :",
+    "options": [
+      "1- Orienté objet",
+      "2- Hiérarchique",
+      "3- Relationnel",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "MySQL est un SGBD relationnel (SGBDR)."
+  },
+  {
+    "question": "16) IIS signifie:",
+    "options": [
+      "1- Information Intranet Services",
+      "2- Internet Information Services",
+      "3- Intranet Information Server",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "IIS (Internet Information Services) est le serveur web de Microsoft."
+  },
+  {
+    "question": "17) Qu'est-ce qu'un View dans MVC?",
+    "options": [
+      "1- View est responsable d'agir et de traiter les données",
+      "2- View représente une vue de base de données",
+      "3- View est responsable de l'affichage de tout ou partie des données",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Dans le pattern MVC, la Vue (View) gère l'interface utilisateur et l'affichage des données fournies par le Modèle."
+  },
+  {
+    "question": "18) Quel type de câble est utilisé pour connecter des appareils similaires (ex: switch-switch) ?",
+    "options": [
+      "1- Câble croisé",
+      "2- Câble droit",
+      "3- Câble série",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Traditionnellement, pour connecter deux équipements de même type (MDI à MDI ou MDI-X à MDI-X), on utilise un câble croisé (crossover)."
+  },
+  {
+    "question": "19) Quel est le tag à utiliser pour placer une image ?",
+    "options": [
+      "1- <image src=\"\" alt=\"\">",
+      "2- <img source=\"\" alt=\"\">",
+      "3- <img src=\"\" alt=\"\">",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La balise HTML correcte pour les images est <img> avec l'attribut src."
+  },
+  {
+    "question": "20) Un compilateur :",
+    "options": [
+      "1- est un programme informatique",
+      "2- sert le plus souvent à traduire un code source écrit dans un langage de programmation en un autre langage",
+      "3- produit un programme en langage machine appelé code objet",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Les options 1, 2 et 3 sont techniquement correctes. La fonction principale est la traduction du code source vers le code machine/objet. Si une seule réponse est attendue, la définition fonctionnelle (2) est la plus pertinente, ou l'option 4 si elle sous-entendait 'Toutes les réponses' mais est mal formulée."
+  },
+  {
+    "question": "21) En gestion de projet qu'appelle-t-on maîtrise d'ouvrage ?",
+    "options": [
+      "1- le client",
+      "2- le prestataire",
+      "3- la société chargée de l'accompagnement",
+      "4- Aucune bonne réponse"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "La Maîtrise d'Ouvrage (MOA) représente le client, commanditaire du projet, qui définit les besoins."
+  },
+  {
+    "question": "Quel protocole est dédié à la transmission de fichiers sur Internet",
+    "options": [
+      "1- Gropher",
+      "2- HTTP",
+      "3- FTP"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "FTP (File Transfer Protocol) est le protocole standard pour le transfert de fichiers."
+  },
+  {
+    "question": "Quel type de champ serait utilisé dans une structure de base de données pour une adresse e-mail ?",
+    "options": [
+      "1- Text",
+      "2- Object",
+      "3- Yes/No",
+      "4- Number"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Une adresse e-mail est une chaîne de caractères, stockée dans un champ de type Texte (VARCHAR)."
+  },
+  {
+    "question": "26) Quel mot clé élimine les lignes en double du résultat d'une instruction",
+    "options": [
+      "1- All",
+      "2- Unique",
+      "3- Distinct",
+      "4- IN"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le mot clé SQL DISTINCT permet de supprimer les doublons dans les résultats d'une requête SELECT."
+  },
+  {
+    "question": "27) Quelle instruction SQL sélectionnera toutes les lignes et colonnes de la table \"etudiant\" et les triera par ordre décroissant par colonne \"note\" ?",
+    "options": [
+      "1- SELECT * FROM etudiant ORDER BY Etid ASC",
+      "2- SELECT * FROM etudiant ORDER BY Etid DESC",
+      "3- SELECT * FROM etudiant ORDER BY note ASC",
+      "4- SELECT * FROM etudiant ORDER BY note DESC"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "Pour trier par ordre décroissant, on utilise ORDER BY [colonne] DESC."
+  },
+  {
+    "question": "28) Java s'exécute sur :",
+    "options": [
+      "1- Unix/Linux",
+      "2- Windows",
+      "3- Mac",
+      "4- Tout ce qui précède"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "Java est portable (WORA - Write Once, Run Anywhere) et s'exécute sur tous ces systèmes via la JVM."
+  },
+  {
+    "question": "30) Dans une base de données, un enregistrement correspond à..",
+    "options": [
+      "1- Un programme nécessaire pour utiliser la base",
+      "2- L'ensemble des caractéristiques d'un élément de la table",
+      "3- Un annuaire de recherche",
+      "4- Toutes les réponses sont correctes"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Un enregistrement (ou ligne/tuple) contient les données pour tous les champs (caractéristiques) d'une entrée unique dans la table."
+  },
+  {
+    "question": "31) Qu'est-ce qui est faux pour les interfaces en Java ?",
+    "options": [
+      "1- Une interface peut être le type d'une référence",
+      "2- Une interface déclare des méthodes sans les implémenter",
+      "3- Une interface peut être implémenter",
+      "4- Une interface peut être instanciée"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "On ne peut pas instancier directement une interface (pas de `new Interface()`). On doit instancier une classe qui implémente l'interface."
+  },
+  {
+    "question": "32) Que fournit le DHCP au client ?",
+    "options": [
+      "1- Adresse IP",
+      "2- Adresse MAC",
+      "3- URL",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Le serveur DHCP (Dynamic Host Configuration Protocol) attribue dynamiquement des adresses IP et d'autres paramètres réseau aux clients."
+  },
+  {
+    "question": "33) Comment insérer un commentaire dans un fichier CSS ?",
+    "options": [
+      "1- /* ceci est un commentaire */",
+      "2- ceci est un commentaire",
+      "3- // ceci est un commentaire //",
+      "4- // ceci est un commentaire"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "La syntaxe standard des commentaires en CSS est /* ... */."
+  },
+  {
+    "question": "34) le système de grille de Bootstrap (GridSystem) Comporte combien de colonnes ?",
+    "options": [
+      "1- 6",
+      "2- 3",
+      "3- 12",
+      "4- 9"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La grille Bootstrap est basée sur une division de la page en 12 colonnes."
+  },
+  {
+    "question": "35) en C# comment créer un objet appelé monObj de la classe MaClasse ?",
+    "options": [
+      "1- MaClasse myObj = new MaClasse();",
+      "2- class MaClasse= new myObj();",
+      "3- class myObj = new MaClasse();",
+      "4- new myObj = MaClasse();"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "La syntaxe d'instanciation en C# est `Type nomVariable = new Type();`."
+  },
+  {
+    "question": "36) Quels langages parmi les suivants sont orientés objet ?",
+    "options": [
+      "1- Java",
+      "2- C++",
+      "3- langage C",
+      "4- C#"
+    ],
+    "answer": [
+      "0",
+      "1",
+      "3"
+    ],
+    "justification": "Java, C++ et C# sont des langages orientés objet. Le C est un langage procédural."
+  },
+  {
+    "question": "37) La première phase en développement de logiciel est :",
+    "options": [
+      "1- le développement",
+      "2- la conception",
+      "3- le Design",
+      "4- l'analyse du besoin"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "Le cycle de vie logiciel commence par l'analyse des besoins (requirements analysis) avant la conception et le développement."
+  },
+  {
+    "question": "38) Quel est l'ordre correct d'une requête SQL ?",
+    "options": [
+      "1- SELECT, FROM, ORDER BY, WHERE",
+      "2- SELECT, FROM, WHERE, ORDER BY",
+      "3- SELECT, WHERE, FROM, ORDER BY",
+      "4- WHERE, FROM, SELECT, ORDER BY"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "L'ordre syntaxique correct est SELECT ... FROM ... WHERE ... ORDER BY."
+  },
+  {
+    "question": "39) ASP.NET Core supporte quelles plateformes ?",
+    "options": [
+      "1- Windows",
+      "2- Linux",
+      "3- Mac",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "0",
+      "1",
+      "2"
+    ],
+    "justification": "ASP.NET Core est un framework cross-platform qui fonctionne sur Windows, Linux et macOS."
+  },
+  {
+    "question": "40) Qu'est-ce qu'une architecture n-tiers ?",
+    "options": [
+      "1- Une architecture avec n clients lourds pouvant se connecter",
+      "2- Une architecture logique du système divisée en trois couches présentation, une couche métier et une couche d'accès aux données",
+      "3- Une architecture logique du système divisée en trois middleware et un serveur",
+      "4- Une architecture avec n clients lourds pouvant se connecter"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "L'architecture n-tiers (souvent illustrée par le 3-tiers) sépare l'application en couches logiques indépendantes (Présentation, Métier, Données)."
+  },
+  {
+    "question": "42) Pour n'afficher que les villes dont le résultat du COUNT(*) est supérieur à 90000 :",
+    "options": [
+      "1- la clause WHERE count(id_ville)>90000 avant GROUP BY",
+      "2- la clause HAVING count(*)>90000 après GROUP BY",
+      "3- la clause WHERE count(id_ville)>90000 après GROUP BY",
+      "4- la clause HAVING count(*)>90000 avant GROUP BY"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Le filtrage sur un agrégat (COUNT) se fait avec HAVING, qui se place après la clause GROUP BY."
+  },
+  {
+    "question": "43) HTML est considéré comme :",
+    "options": [
+      "1- Langage de programmation",
+      "2- Langage POO",
+      "3- Langage de haut niveau",
+      "4- Langage de balisage"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "HTML (HyperText Markup Language) est un langage de balisage, pas de programmation."
+  },
+  {
+    "question": "44) Lequel des éléments suivants n'est pas un exemple de navigateur ?",
+    "options": [
+      "1- Mozilla Firefox",
+      "2- Netscape",
+      "3- Microsoft Bing",
+      "4- Opéra"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Microsoft Bing est un moteur de recherche. Firefox, Netscape et Opera sont/étaient des navigateurs web."
+  },
+  {
+    "question": "45) À quoi sert les formulaires en HTML?",
+    "options": [
+      "1- Pour afficher le contenu d'un email",
+      "2- Pour afficher l'effet d'animation",
+      "3- Pour recueillir les entrées de l'utilisateur",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Les formulaires (<form>) sont utilisés pour collecter des données saisies par l'utilisateur."
+  },
+  {
+    "question": "46) La première page d'un site Web s'appelle :",
+    "options": [
+      "1- Page de conception",
+      "2- Page d'accueil",
+      "3- Première page",
+      "4- Page principale"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "La page d'entrée principale d'un site est communément appelée Page d'accueil (Home page)."
+  },
+  {
+    "question": "47) La GED est :",
+    "options": [
+      "1- Un système informatisé d'acquisition de documents",
+      "2- Un système informatisé de gestion financière",
+      "3- Un système d'archivage de documents",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "GED signifie Gestion Électronique de Documents. Cela englobe l'acquisition, la gestion et l'archivage. Parmi les choix, le système d'archivage/gestion de documents est la bonne définition."
+  },
+  {
+    "question": "48) Comment pouvez-vous détecter le nom du navigateur du client?",
+    "options": [
+      "1- navigator.appName",
+      "2- browser.name",
+      "3- client.navName",
+      "4- window.appName"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "En JavaScript, l'objet `navigator` possède la propriété `appName` (bien que son usage soit déconseillé aujourd'hui, c'est la réponse historique)."
+  },
+  {
+    "question": "49) Une base de données permet de :",
+    "options": [
+      "1- Sécuriser les accès aux données",
+      "2- Contrôler les performances du système",
+      "3- Stocker les données de manière fiable",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "0",
+      "2"
+    ],
+    "justification": "Le but premier est le stockage fiable (persistance) des données, ainsi que la sécurité d'accès."
+  },
+  {
+    "question": "51) Comment peut-on encadrer tous les titres de niveau 1 à l'aide du CSS ?",
+    "options": [
+      "1- h1{border: 1px solid #bbb}",
+      "2- h1{border-left: 1px solid #bbb}",
+      "3- h1{border-right: 1px solid #bbb}",
+      "4- {border-right: 1px solid #bbb}"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "La propriété `border` appliquée au sélecteur `h1` permet d'encadrer les titres."
+  },
+  {
+    "question": "52) Quelle est la syntaxe correcte pour faire référence à un script externe",
+    "options": [
+      "1- <script href=\"myscript.js\">",
+      "2- <script name=\"myscript.js\">",
+      "3- <script src=\"myscript.js\">",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La balise <script> utilise l'attribut `src` pour lier un fichier JavaScript externe."
+  },
+  {
+    "question": "53) Quel est le bon endroit pour insérer un code JavaScript?",
+    "options": [
+      "1- La section <head>",
+      "2- Les deux sections <head> et <body> sont corrects",
+      "3- La section <body>",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Le code JavaScript peut être placé dans le <head> ou le <body> d'un document HTML."
+  },
+  {
+    "question": "54) AJAX",
+    "options": [
+      "1- signifie : Asynchronous Javascript And Xml",
+      "2- désigne un nouveau type de conception de pages Web...",
+      "3- est une méthode de conception qui repose sur la combinaison...",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "AJAX est l'acronyme de Asynchronous JavaScript and XML."
+  },
+  {
+    "question": "55) Quelle instruction apporte des modifications aux attributs (structure) ?",
+    "options": [
+      "1- CHANGE",
+      "2- ALTER",
+      "3- UPDATE",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "En SQL, la commande ALTER TABLE est utilisée pour modifier la structure d'une table (ajouter/modifier des colonnes)."
+  },
+  {
+    "question": "56) Comment écrire une condition IF pour vérifier si « a » n'est pas égal à 2",
+    "options": [
+      "1- if a <> 2",
+      "2- if (a != 2)",
+      "3- if (a <> 2)",
+      "4- Aucune des réponses"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Dans les langages comme Java, C#, C++, JavaScript, l'opérateur d'inégalité est `!=` et la condition est entre parenthèses."
+  },
+  {
+    "question": "58) Quel élément sépare une propriété css de sa valeur ?",
+    "options": [
+      "1- le signe espace ( )",
+      "2- le signe deux points (:)",
+      "3- le signe point virgule (;)",
+      "4- le signe égal (=)"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "En CSS, la syntaxe est `propriété: valeur;`."
+  },
+  {
+    "question": "60) Sur une base de données, qu'est-ce qu'un TRIGGER ?",
+    "options": [
+      "1- Un script de contrôle défini sur toute la base de données",
+      "2- Un script de contrôle défini sur un objet spécifique de la base de données",
+      "3- Un script de contrôle défini pour une table de la base de données",
+      "4- Un script de contrôle défini sur un schéma de la base de données"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Un trigger (déclencheur) est une procédure stockée associée à une table qui s'exécute automatiquement lors d'événements (INSERT, UPDATE, DELETE)."
+  }
+]

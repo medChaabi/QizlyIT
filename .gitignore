@@ -1,0 +1,11 @@
+# IDE
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.log
