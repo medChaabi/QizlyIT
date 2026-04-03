@@ -10,6 +10,8 @@ Ce dépôt permet aux utilisateurs de la communauté de collaborer, de partager 
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Ministère de la Justice** | Concours DEV | 2022 | [PDF 📄](./Resource/Ministere_de_la_justice_2022.pdf) | [JSON ⬇️](./QizlyJSON/Ministere_de_la_justice_2022_DEV.json) | `IQ4T4E` | [@medChaabi](https://github.com/medChaabi) |
 | **Ministère de la Justice** | Concours DEV | 2024 | [PDF 📄](./Resource/Ministere_de_la_justice_2024.pdf) | [JSON ⬇️](./QizlyJSON/Ministere_de_la_justice_2024_DEV.json) | `AM091Y` | [@medChaabi](https://github.com/medChaabi) |
+| **Ministère de l'Équipement et de l'Eau** | Technicien 3ème Grade (GI) | 2026 | [PDF 📄](./Resource/TECHNICIENS%203%20EME%20GRADE%20%20Génie%20Informatique.pdf) | [JSON ⬇️](./QizlyJSON/TECHNICIENS_3_EME_GRADE_2026.json) | `MRI3R2` | [@medChaabi](https://github.com/medChaabi) |
+
 
 
 

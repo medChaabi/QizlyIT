@@ -1,0 +1,835 @@
+[
+  {
+    "question": "Quel est le rôle principal d'un algorithme ?",
+    "options": [
+      "Écrire du code",
+      "Décrire une solution étape par étape",
+      "Compiler un programme",
+      "Tester une application"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Un algorithme est une suite d'instructions précises et ordonnées (une solution étape par étape) permettant de résoudre un problème."
+  },
+  {
+    "question": "Quel langage est principalement utilisé pour la programmation orientée objet ?",
+    "options": [
+      "SQL",
+      "HTML",
+      "Java",
+      "CSS",
+      "Oracle"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Java est un langage de programmation conçu spécifiquement autour du paradigme orienté objet."
+  },
+  {
+    "question": "A quoi sert un diagramme UML ?",
+    "options": [
+      "Tester le logiciel",
+      "Documenter et concevoir le logiciel",
+      "Compiler le code",
+      "Gérer la base de données"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "UML (Unified Modeling Language) est utilisé pour la modélisation, la documentation et la conception des systèmes logiciels."
+  },
+  {
+    "question": "Quel principe POO signifie « une classe peut prendre plusieurs formes » ?",
+    "options": [
+      "Encapsulation",
+      "Héritage",
+      "Polymorphisme",
+      "Abstraction"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le polymorphisme (du grec 'plusieurs formes') permet à des objets de types différents d'être traités comme des objets d'un type commun."
+  },
+  {
+    "question": "Quelle structure permet de répéter un traitement ?",
+    "options": [
+      "Condition",
+      "Fonction",
+      "Boucle",
+      "Variable"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Les boucles (comme 'for' ou 'while') sont les structures de contrôle utilisées pour répéter l'exécution d'un bloc de code."
+  },
+  {
+    "question": "Quel diagramme UML montre les classes et leurs relations ?",
+    "options": [
+      "Diagramme de séquence",
+      "Diagramme de cas d'utilisation",
+      "Diagramme de classes",
+      "Diagramme d'activité"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le diagramme de classes est un diagramme structurel qui décrit la structure d'un système en montrant ses classes, leurs attributs, opérations et relations."
+  },
+  {
+    "question": "Quel est le rôle d'un test unitaire ?",
+    "options": [
+      "Tester l'interface",
+      "Tester une fonction ou méthode",
+      "Tester la base de données",
+      "Tester le réseau"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Les tests unitaires visent à vérifier le bon fonctionnement d'une petite partie isolée du code, généralement une fonction ou une méthode."
+  },
+  {
+    "question": "Quel mot-clé permet de prendre une décision en programmation ?",
+    "options": [
+      "For",
+      "While",
+      "If",
+      "return",
+      "loop"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le mot-clé 'If' introduit une structure conditionnelle qui permet d'exécuter du code seulement si une condition est vraie."
+  },
+  {
+    "question": "Quel modèle de développement est séquentiel ?",
+    "options": [
+      "Agile",
+      "Scrum",
+      "Cycle en V",
+      "DevOps"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le Cycle en V (tout comme le modèle en cascade) est une approche séquentielle et linéaire du développement logiciel."
+  },
+  {
+    "question": "Quel est l'objectif principal de la conception logicielle ?",
+    "options": [
+      "Écrire le code",
+      "Exécuter le programme",
+      "Structurer la solution avant le codage",
+      "Déployer l'application"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La conception logicielle consiste à définir l'architecture, les composants et les structures de données du système avant l'étape de programmation."
+  },
+  {
+    "question": "En SQL, quelle est la différence principale entre WHERE et HAVING ?",
+    "options": [
+      "WHERE filtre après agrégation",
+      "HAVING filtre avant agrégation",
+      "WHERE filtre avant agrégation",
+      "Aucune différence"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "WHERE filtre les lignes avant qu'elles ne soient groupées, tandis que HAVING filtre les groupes après l'agrégation."
+  },
+  {
+    "question": "Quelle forme normale élimine les dépendances transitives ?",
+    "options": [
+      "1FN",
+      "2FN",
+      "3FN",
+      "BCNF"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La troisième forme normale (3FN) exige que la table soit en 2FN et que tous les attributs non-clés ne dépendent pas d'autres attributs non-clés (élimination des dépendances transitives)."
+  },
+  {
+    "question": "En .NET, quelle est la différence entre IEnumerable et IList ?",
+    "options": [
+      "IList est immuable",
+      "IEnumerable ne permet pas l'indexation",
+      "IEnumerable est plus rapide",
+      "IList est asynchrone"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "IEnumerable permet seulement de parcourir une collection séquentiellement, tandis que IList permet l'accès aléatoire aux éléments via un index."
+  },
+  {
+    "question": "En C#, quel mot-clé permet de définir une méthode virtuelle ?",
+    "options": [
+      "abstract",
+      "override",
+      "virtual"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le mot-clé 'virtual' est utilisé pour autoriser une méthode à être redéfinie (overridden) dans une classe dérivée."
+  },
+  {
+    "question": "En Java, quelle est la différence entre HashMap et TreeMap ?",
+    "options": [
+      "HashMap est synchronisé",
+      "TreeMap est ordonné",
+      "HashMap interdit les doublons",
+      "TreeMap utilise FIFO"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "TreeMap implémente SortedMap et maintient ses clés triées selon leur ordre naturel ou un comparateur, contrairement à HashMap qui ne garantit aucun ordre."
+  },
+  {
+    "question": "Quel mot-clé Java empêche l'héritage d'une classe ?",
+    "options": [
+      "static",
+      "abstract",
+      "final",
+      "private"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Une classe déclarée avec le mot-clé 'final' ne peut pas être sous-classée (héritée)."
+  },
+  {
+    "question": "En développement web, quel est le rôle principal de CSS ?",
+    "options": [
+      "Gérer la logique",
+      "Structurer le contenu",
+      "Styliser l'interface",
+      "Gérer la base de données"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "CSS (Cascading Style Sheets) est utilisé pour définir le style, la mise en page et l'apparence visuelle des pages web."
+  },
+  {
+    "question": "Quelle méthode HTTP est idempotente ?",
+    "options": [
+      "POST",
+      "PUT",
+      "PATCH",
+      "CONNECT"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Une méthode est idempotente si plusieurs appels identiques ont le même effet qu'un seul. PUT est idempotent (remplacer une ressource donne le même état final)."
+  },
+  {
+    "question": "En .NET, quelle interface permet l'injection de dépendances ?",
+    "options": [
+      "IConfiguration",
+      "IServiceCollection",
+      "ILogger",
+      "IHost"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "IServiceCollection est l'interface utilisée pour enregistrer les services et configurer le conteneur d'injection de dépendances."
+  },
+  {
+    "question": "En Java, quelle interface permet d'implémenter un tri personnalisé ?",
+    "options": [
+      "Comparator",
+      "Comparable",
+      "Iterable",
+      "Serializable"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "L'interface Comparator est utilisée pour définir une logique de tri personnalisée, externe à la classe des objets à trier (contrairement à Comparable qui définit l'ordre naturel)."
+  },
+  {
+    "question": "En développement web, quelle balise HTML5 est sémantique ?",
+    "options": [
+      "<div>",
+      "<span>",
+      "<article>",
+      "<font>"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La balise <article> donne du sens au contenu qu'elle entoure, indiquant qu'il s'agit d'une composition autonome, contrairement à <div> ou <span> qui sont génériques."
+  },
+  {
+    "question": "En SQL, quel index améliore les recherches avec LIKE 'abc%' ?",
+    "options": [
+      "Index cluster",
+      "Index full-text",
+      "Index B-tree",
+      "Index bitmap"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Un index B-tree standard est efficace pour les recherches de préfixes (comme 'abc%') car les données sont triées."
+  },
+  {
+    "question": "En .NET, quelle classe permet la gestion des logs ?",
+    "options": [
+      "ILogger",
+      "IHosting"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "ILogger (et ses implémentations) est l'interface standard pour le mécanisme de journalisation (logging) en .NET."
+  },
+  {
+    "question": "En Java, quelle API permet la programmation asynchrone ?",
+    "options": [
+      "Stream",
+      "CompletableFuture",
+      "Optional",
+      "Reflection"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "CompletableFuture est une classe introduite en Java 8 pour faciliter la programmation asynchrone et la gestion des tâches futures."
+  },
+  {
+    "question": "En développement web, quelle propriété CSS permet le responsive design ?",
+    "options": [
+      "position",
+      "display",
+      "media queries",
+      "float"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Les Media Queries permettent d'appliquer des styles CSS différents en fonction des caractéristiques du périphérique (comme la taille de l'écran), ce qui est la base du responsive design."
+  },
+  {
+    "question": "En SQL, quelle clause permet de combiner deux requêtes ?",
+    "options": [
+      "JOIN",
+      "UNION",
+      "GROUP BY",
+      "MERGE",
+      "ORDRE BY"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "L'opérateur UNION permet de combiner les ensembles de résultats de deux instructions SELECT ou plus."
+  },
+  {
+    "question": "En .NET, quel type est immuable ?",
+    "options": [
+      "String",
+      "List",
+      "Array",
+      "Dictionary",
+      "Integer"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "En .NET (comme en Java), les chaînes de caractères (String) sont immuables; une fois créées, elles ne peuvent être modifiées."
+  },
+  {
+    "question": "En Java, quelle exception est non contrôlée ?",
+    "options": [
+      "IOException",
+      "SQLException",
+      "RuntimeException",
+      "FileNotFoundException"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Les exceptions qui héritent de RuntimeException sont dites 'unchecked' (non contrôlées), le compilateur n'oblige pas à les gérer."
+  },
+  {
+    "question": "En développement web, quel langage est exécuté côté serveur ?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript (Node.js)",
+      "XML"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Bien que JavaScript soit historiquement côté client, avec l'environnement Node.js, il est couramment utilisé pour exécuter du code côté serveur."
+  },
+  {
+    "question": "Quelle condition permet de vérifier si un nombre est pair ?",
+    "options": [
+      "Nombre mod 2 = 1",
+      "Nombre / 2 = 0",
+      "Nombre mod 2 = 0",
+      "Nombre = pair"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Un nombre est pair si le reste de sa division par 2 (modulo) est égal à 0."
+  },
+  {
+    "question": "Afficher tous les barrages enregistrés :",
+    "options": [
+      "SELECT * FROM Barrage;",
+      "SELECT Barrage FROM *;",
+      "SHOW Barrage;",
+      "SELECT ALL Barrage;"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "La syntaxe standard pour sélectionner toutes les colonnes d'une table est SELECT * FROM Table."
+  },
+  {
+    "question": "Afficher le nom et la capacité maximale de chaque barrage :",
+    "options": [
+      "SELECT nom, capacite_max FROM Barrage;",
+      "SELECT * FROM capacite_max;",
+      "SELECT capacite_max FROM nom;",
+      "SELECT Barrage.nom;"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Il faut spécifier les noms des colonnes souhaitées après SELECT et la table source après FROM."
+  },
+  {
+    "question": "Afficher les mesures dont le niveau d'eau dépasse 70 m :",
+    "options": [
+      "SELECT * FROM Mesure WHERE niveau_eau > 70;",
+      "SELECT * FROM Mesure WHEN niveau_eau > 70;",
+      "SELECT niveau_eau FROM 70;",
+      "SELECT * Mesure > 70;"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "La clause WHERE est utilisée pour filtrer les enregistrements selon une condition (ici niveau_eau > 70)."
+  },
+  {
+    "question": "Insérer un nouveau barrage :",
+    "options": [
+      "INSERT Barrage VALUES (1,'Al Wahda',3700);",
+      "INSERT INTO Barrage VALUES (1,'Al Wahda',3700);",
+      "ADD INTO Barrage VALUES (...);",
+      "INSERT Barrage INTO (...);"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "La syntaxe SQL correcte pour l'insertion est INSERT INTO Table VALUES (...)."
+  },
+  {
+    "question": "Mettre à jour la capacité d'un barrage :",
+    "options": [
+      "UPDATE Barrage SET capacite_max = 4000;",
+      "UPDATE Barrage capacite_max = 4000;",
+      "UPDATE Barrage SET capacite_max = 4000 WHERE id_barrage = 1;",
+      "MODIFY Barrage SET capacite_max = 4000;"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Pour modifier un enregistrement spécifique, on utilise UPDATE ... SET ... WHERE. Sans WHERE, tous les enregistrements seraient modifiés."
+  },
+  {
+    "question": "Supprimer toutes les alertes d'un barrage :",
+    "options": [
+      "DELETE * FROM Alerte WHERE id_barrage = 1;",
+      "DELETE FROM Alerte WHERE id_barrage = 1;",
+      "REMOVE FROM Alerte WHERE id_barrage = 1;",
+      "DROP Alerte WHERE id_barrage = 1;"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "La commande DELETE FROM permet de supprimer des lignes. DROP supprime des tables entières."
+  },
+  {
+    "question": "Afficher le nom du barrage et ses niveaux mesurés :",
+    "options": [
+      "SELECT nom, niveau_eau FROM Barrage, Mesure;",
+      "SELECT nom, niveau_eau FROM Barrage JOIN Mesure ON Barrage.id_barrage = Mesure.id_barrage;",
+      "SELECT nom FROM Barrage JOIN Mesure;",
+      "SELECT * FROM Barrage WHERE Mesure;"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Pour lier deux tables (Barrage et Mesure), on utilise une jointure (JOIN) sur la clé étrangère commune."
+  },
+  {
+    "question": "Afficher les alertes avec le nom du barrage :",
+    "options": [
+      "SELECT *FROM Alerte JOIN Barrage ON Alerte.id_barrage = Barrage.id_barrage;",
+      "SELECT Alerte FROM Barrage;",
+      "SELECT nom FROM Alerte;",
+      "JOIN Alerte Barrage;"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Une jointure interne (JOIN) est nécessaire pour récupérer les informations associées entre la table Alerte et la table Barrage."
+  },
+  {
+    "question": "Calculer le niveau d'eau moyen :",
+    "options": [
+      "SELECT SUM(niveau_eau) FROM Mesure;",
+      "SELECT AVG(niveau_eau) FROM Mesure ;",
+      "SELECT COUNT(niveau_eau) FROM Mesure;",
+      "SELECT MAX(niveau_eau) FROM Mesure;"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "La fonction d'agrégation AVG() calcule la moyenne des valeurs d'une colonne."
+  },
+  {
+    "question": "Compter le nombre de mesures par barrage :",
+    "options": [
+      "SELECT COUNT(*) FROM Mesure;",
+      "SELECT id_barrage, COUNT(*)FROM Mesure GROUP BY id_barrage;",
+      "SELECT GROUP Mesure;",
+      "SELECT COUNT(id_barrage) WHERE Mesure;"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Pour compter les éléments par catégorie, on utilise COUNT(*) combiné avec la clause GROUP BY."
+  },
+  {
+    "question": "Ce code illustre principalement :",
+    "options": [
+      "Programmation procédurale",
+      "Programmation orientée objet",
+      "Programmation événementielle",
+      "Programmation fonctionnelle"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Le code définit une classe ('class Route') avec un constructeur et des méthodes, ce qui est caractéristique de la POO."
+  },
+  {
+    "question": "La méthode __init__ sert à :",
+    "options": [
+      "Supprimer l'objet",
+      "Initialiser les attributs de l'objet",
+      "Calculer la surface",
+      "Afficher les résultats"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "En Python, la méthode __init__ est le constructeur utilisé pour initialiser l'état (les attributs) d'un nouvel objet."
+  },
+  {
+    "question": "Quels sont les attributs de la classe Route ?",
+    "options": [
+      "longueur et largeur",
+      "surface et type",
+      "calculer_surface et init",
+      "r1 et surface"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Les attributs définis dans __init__ via 'self.longueur' et 'self.largeur' sont longueur et largeur."
+  },
+  {
+    "question": "Quelle instruction appelle correctement la méthode calculer_surface ?",
+    "options": [
+      "calculer_surface()",
+      "Route.calculer_surface()",
+      "r1.calculer_surface()",
+      "self.calculer_surface"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "On appelle une méthode d'instance sur l'objet instancié (ici 'r1')."
+  },
+  {
+    "question": "Quelle valeur sera affichée à l'exécution du programme ?",
+    "options": [
+      "14000",
+      "2007",
+      "140000",
+      "Erreur"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "L'objet est créé avec 2000 et 7. La méthode retourne 2000 * 7 = 14000."
+  },
+  {
+    "question": "Le mot-clé self représente :",
+    "options": [
+      "La classe",
+      "Une variable globale",
+      "L'objet courant",
+      "Une fonction"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "En Python, 'self' est une référence à l'instance courante de la classe."
+  },
+  {
+    "question": "Quelle ligne permet de créer un objet de la classe Route ?",
+    "options": [
+      "Route = r1(2000, 7)",
+      "new Route(2000, 7)",
+      "r1 = Route(2000, 7)",
+      "Route(2000, 7) = r1"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La syntaxe d'instanciation en Python est NomClasse(arguments), assigné à une variable."
+  },
+  {
+    "question": "La méthode calculer_surface() retourne :",
+    "options": [
+      "Une chaîne de caractères",
+      "Un nombre entier",
+      "Un booléen",
+      "Rien"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Elle retourne le produit de deux nombres, donc un nombre (entier ici)."
+  },
+  {
+    "question": "Que va afficher ce programme (niveau=68, seuil=70) ?",
+    "options": [
+      "Alerte crue",
+      "Niveau normal",
+      "68",
+      "Erreur"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "La condition 68 >= 70 est fausse, donc le bloc 'else' s'exécute."
+  },
+  {
+    "question": "Quel est le rôle principal de ce code (boucle sur mesures) ?",
+    "options": [
+      "Afficher toutes les mesures",
+      "Calculer la moyenne",
+      "Détecter un dépassement du seuil",
+      "Supprimer les valeurs"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le code vérifie si 'm > 70' et affiche une alerte si c'est le cas, détectant ainsi un dépassement."
+  },
+  {
+    "question": "Que contient la variable total à la fin ?",
+    "options": [
+      "64",
+      "60",
+      "186",
+      "0"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le code fait la somme des éléments de la liste : 60 + 62 + 64 = 186."
+  },
+  {
+    "question": "Quel sera le résultat (while niveau > 70) ?",
+    "options": [
+      "Affiche une seule fois",
+      "Boucle infinie",
+      "Affiche 2 fois",
+      "Erreur"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Niveau commence à 75. 1er tour: affiche, niveau devient 70. 2eme tour: 70 > 70 est Faux. La boucle s'arrête après 1 affichage."
+  },
+  {
+    "question": "Que va afficher ce programme Java (niveau=80, seuil=70) ?",
+    "options": [
+      "Niveau stable",
+      "Rien",
+      "Alerte barrage",
+      "Erreur"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La condition 80 > 70 est vraie, donc 'Alerte barrage' est affiché."
+  },
+  {
+    "question": "Que fait ce constructeur ?",
+    "options": [
+      "Supprime l'objet",
+      "Initialise le niveau d'eau",
+      "Affiche une alerte",
+      "Calcule une moyenne"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Le constructeur assigne la valeur passée en paramètre à l'attribut 'niveauEau'."
+  },
+  {
+    "question": "Quelle est la valeur de somme à la fin ?",
+    "options": [
+      "70",
+      "125",
+      "195",
+      "0"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "La boucle additionne 60 + 65 + 70 = 195."
+  },
+  {
+    "question": "Combien de fois s'affiche le message (while niveau > 65, depart 75, -5) ?",
+    "options": [
+      "1 fois",
+      "2 fois",
+      "3 fois",
+      "Infini"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "1er tour (75): affiche, niv=70. 2eme tour (70): affiche, niv=65. 3eme tour (65): condition fausse. Donc 2 affichages."
+  },
+  {
+    "question": "Dans un système du MEE, ce code sert à (alerte = True) :",
+    "options": [
+      "Créer une interface",
+      "Activer une décision de sécurité",
+      "Supprimer des données",
+      "Fermer le programme"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Le code lève une alerte si un seuil critique est dépassé, ce qui relève de la logique de sécurité."
+  },
+  {
+    "question": "Quel est l'intérêt de ce code Java (ouvrirVannes) ?",
+    "options": [
+      "Afficher une image",
+      "Déclencher une action de sécurité",
+      "Calculer la capacité",
+      "Créer un fichier"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Ouvrir les vannes en cas de trop plein est une action de sécurité active."
+  },
+  {
+    "question": "Quel outil est utilisé pour créer rapidement une application React ?",
+    "options": [
+      "npm init react",
+      "create-react-app",
+      "react-start",
+      "node-react"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "'create-react-app' est l'outil en ligne de commande standard (historique) pour générer un projet React."
+  },
+  {
+    "question": "Comment passer une prop à un composant ?",
+    "options": [
+      "<Comp prop=\"valeur\" />",
+      "<Comp(prop)>",
+      "Comp.prop = valeur",
+      "useProp()"
+    ],
+    "answer": [
+      "0"
+    ],
+    "justification": "Les props sont passées comme des attributs HTML dans JSX."
+  },
+  {
+    "question": "Quel Hook est utilisé pour gérer l'état ?",
+    "options": [
+      "useEffect",
+      "useRef",
+      "useState",
+      "useContext"
+    ],
+    "answer": [
+      "2"
+    ],
+    "justification": "Le Hook 'useState' permet d'ajouter un état local à un composant fonctionnel React."
+  },
+  {
+    "question": "Que fait useState ?",
+    "options": [
+      "Initialise une variable globale",
+      "Crée une variable réactive",
+      "Charge une page",
+      "Gère le CSS"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "useState crée une variable d'état qui, lorsqu'elle est modifiée, déclenche le re-rendu du composant (réactivité)."
+  },
+  {
+    "question": "useEffect est utilisé pour :",
+    "options": [
+      "Créer des composants",
+      "Gérer les effets de bord",
+      "Styliser les pages",
+      "Créer des routes"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "useEffect permet d'effectuer des effets de bord (appels API, abonnements, manipulation DOM) dans les composants fonctionnels."
+  },
+  {
+    "question": "La commande pour construire l'application :",
+    "options": [
+      "npm start",
+      "npm run dev",
+      "npm build",
+      "npm run build"
+    ],
+    "answer": [
+      "3"
+    ],
+    "justification": "'npm run build' est le script standard (défini dans package.json pour CRA/Vite) pour générer la version de production de l'application."
+  }
+]
