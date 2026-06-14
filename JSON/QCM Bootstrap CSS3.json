@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Pour créer une ligne responsive dans Bootstrap, on utilise _______",
+    "options": [
+      "grid-line",
+      "row",
+      "flex-row"
+    ],
+    "answer": [
+      "1"
+    ],
+    "justification": "Dans le système de grille de Bootstrap, la classe 'row' est utilisée pour créer une ligne (rangée) qui sert de conteneur pour les colonnes."
+  }
+]
